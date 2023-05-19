@@ -1,0 +1,28 @@
+.container {
+  padding: 25px;
+  max-width: 390px;
+  width: 100%;
+  max-height: 700px;
+  height: 100%;
+  background-color: #030704;
+  border-radius: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #030704;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #161616;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1b1b1b;
+}

@@ -1,0 +1,52 @@
+.navigation-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.cover-music {
+  width: 100%;
+}
+
+.play-bar {
+  width: 100%;
+  background-color: #fff;
+  height: 4px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    rgba(255, 255, 255, 0.756229) 22.89%,
+    rgba(255, 255, 255, 0) 93.9%,
+    rgba(0, 0, 0, 0) 115.07%
+  );
+}
+
+.play-bar-mask {
+  width: 50%;
+  height: 4px;
+  background: linear-gradient(90deg, #000000 0%, #334a58 51.04%, #000000 115%);
+}
+
+.play-circle {
+  position: absolute;
+  display: flex;
+  margin: 50%;
+}
+
+.content-PlayNavigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-play {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
